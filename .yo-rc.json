@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "masimosJhipster",
+    "packageName": "com.masimos.framework",
+    "packageFolder": "com/masimos/framework",
+    "serverPort": 9001,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.1",
+    "jwtSecretKey": "YWM4OWFhNWI5ZGE4ZmNlMDE1Y2E1MDQ5Y2VkYzA3Yjc0Mzg3M2Q1OWM4OWVmYTRkOGViZmU1ZDNjNDJkZGNiM2NjOGE2M2MwYjM3OThhMWEzMzBmMjhlMjhiOTRhZTk3MTQ3ZjcwMGEzNzZlNDE3Yjg2YzgwNzg3YzIwOGMyMWI=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "masimosly",
+  "repository-name": "jhipster-sample-application"
+}
